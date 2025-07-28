@@ -22,6 +22,7 @@ git init
 git remote add origin https://github.com/rogerSasco/REPONAME.git
 git branch -M main
 ```
+![addLocalRepo](/images/gitCreateRepo.png)
 
 # git add repo steps
 ```shell
@@ -29,6 +30,7 @@ git add .
 git commit -m "message or version"
 git push origin -u main
 ```
+![gitAdd](/images/gitAdd.png)
 
 # clone existing repo from github
 ```shell
