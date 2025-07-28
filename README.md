@@ -1,10 +1,9 @@
 # git local directory
 goto project directory to initiate git $ cd E:\proj dir\proj name>
-
-|
-L___proj dir
-       L___proj name
-
+```
+|___proj dir
+       |___proj name
+```
 
 # git auth user
 ```shell
