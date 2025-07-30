@@ -36,6 +36,7 @@ git push origin -u main
 git clone https://github.com/rogerSasco/REPONAME.git
 ```
 
+Once you have tried the above, goto [3BRANCHING.md](/3BRANCHING.md)
 # References:
 Git tutorial 1 (37min)
 https://youtu.be/hrTQipWp6co?si=IWGvxzinkYimlhf7

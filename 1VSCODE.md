@@ -72,3 +72,4 @@ git config --global credential.helper cache
 After doing these commands you may need to go through git flow once before it has saved your credentials (including your personal access token, which should be used as a password when prompted for username and password.
 
 
+Once you have setup the above, goto [2BASIC.md](/2BASIC.md)
