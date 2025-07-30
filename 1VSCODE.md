@@ -4,7 +4,7 @@ VSCode is the most popular code editor globally. All code for SWE Fundamentals w
 Download VSCode for your operating system here.
 Required Software 2
 
-This document outlines required software for the Bootcamp. Please install this software before starting the course unless instructed otherwise. If you run into any issues or have questions while setting up, feel free to reach out to us via email or on the first day of zoom session. We’re here to help!
+This document outlines required software. Please install this software before starting the course unless instructed otherwise. If you run into any issues or have questions while setting up, feel free to reach out to us via email or on the first day of zoom session. We’re here to help!
 [Windows Only] Install Windows-specific software
 Install and setup Windows Subsystem for Linux (WSL)
 WSL allows us to run the Linux operating system on Windows machines. We do this because most programming uses Unix-based operating systems, of which MacOS is a descendant. Most SWEs that use Windows do their work in WSL to maximise compatibility between their work and work done on Linux machines. Before installing WSL, update Windows to the latest version.
