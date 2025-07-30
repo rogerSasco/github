@@ -24,6 +24,7 @@ git push origin -u <BRANCHNAME>
 # PULL-REQUEST TO MAIN
 creator of the repo is the admin, can set controls to prevent collaborators from merging without vetting.
 
+goto [Pull Request](/4PULLREQ.md)
 
 # References
 
