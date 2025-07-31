@@ -16,7 +16,7 @@ Run sudo apt install build-essential in Ubuntu in WSL to install standard librar
 Run sudo apt-get install ca-certificates in Ubuntu in WSL to get SSL verification certificates on Ubuntu for Ubuntu to communicate with VS Code on our computer.
 
 # Integrate VS Code with WSL
-Install the VS Code Remote Development [extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) to enable VS Code to integrate with WSL.
+Install the VS Code Remote Development [extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) to enable VS Code to integrate with WSL. Vial VS code [here](https://youtu.be/gdLyNIxbOxQ?si=IUmcKoikZvrgczQV).
 Click the Remote Development extension icon in the bottom left corner of VS Code. A pop up will appear with a list of options. Click the first option "Remote-WSL: New Window" for the default distro.
 You will see a notification "Starting VS Code in WSL...". This means VS Code is setting up a server inside WSL for the first time. Once installed, the VS Code of your Windows OS will sync automatically with the VS Code of your Ubuntu OS, and the VS Code terminal will show the Ubuntu terminal.
 
@@ -28,16 +28,24 @@ sudo apt-get update
 
 sudo apt-get install git
 ```
-
+install Git video steps [here](https://youtu.be/ahobC1XzDno?si=w4NcB2biTx0E3Q2O)
 # Verify correct installation by checking Git version
 ```bash
 git –version
 ```
-# Personal Access Tokens
-Configure Git and GitHub
-When using the HTTPS protocol on GitHub to retrieve repository information you will need to develop a personal access token on your GitHub account, you will then be able to use this token to authenticate your request. To create a personal access token please follow this set of documentation.
-After you have created the personal access token be sure to save it in a safe spot as it will be required when authenticating requests to the GitHub servers. You will be prompted to pass your GitHub username and password when trying to push to repositories, use your Personal Access Token in place of your password.
-
+# SSH keys setup
+GitHub, GitLab have implemented beyond password authenication, and the most secure way is SSH, PAT is for CI/CD production, SSH is for developers.
+```bash
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+Press Enter to accept defaults
+```bash
+cat ~/.ssh/id_ed25519.pub
+```
+Go to GitHub SSH Keys Settings → Add new key.
+```bash
+ssh -T git@github.com
+```
 # Configure Git default branch
 Set the default Git branch to main as per GitHub's latest convention. Some older versions of Git may still use master as the default branch name.
 ```bash
