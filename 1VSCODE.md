@@ -1,7 +1,7 @@
 # VSCode
 VSCode is the most popular code editor globally. All code for SWE Fundamentals will be written using VSCode.
 # Installation:
-Download VSCode for your operating system [here](https://code.visualstudio.com/Download).
+Download [VSCode](https://code.visualstudio.com/Download) for your operating system [here](https://youtu.be/GAiaqN87Pp8?si=Zqj37lp-3DRT2wNG).
 
 Required Software 2
 This document outlines required software.
@@ -10,8 +10,8 @@ This document outlines required software.
 Install and setup Windows Subsystem for Linux (WSL)
 WSL allows us to run the Linux operating system on Windows machines. We do this because most programming uses Unix-based operating systems, of which MacOS is a descendant. Most SWEs that use Windows do their work in WSL to maximise compatibility between their work and work done on Linux machines. Before installing WSL, update Windows to the latest version.
 
-Install WSL [here](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
-Install the latest version of Ubuntu [here](https://apps.microsoft.com/store/detail/ubuntu-22041-lts/9PN20MSR04DW?hl=en-sg\&gl=sg). Ubuntu is a popular version of the Linux operating system.
+Install [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10) [here](https://youtu.be/kGEDZzeZlj4?si=gf0zJ7j2g-K9Ptvx).
+Install the latest version of [Ubuntu](https://apps.microsoft.com/store/detail/ubuntu-22041-lts/9PN20MSR04DW?hl=en-sg\&gl=sg) here. Ubuntu is a popular version of the Linux operating system.
 Run sudo apt install build-essential in Ubuntu in WSL to install standard libraries Ubuntu needs to further install common packages.
 Run sudo apt-get install ca-certificates in Ubuntu in WSL to get SSL verification certificates on Ubuntu for Ubuntu to communicate with VS Code on our computer.
 
